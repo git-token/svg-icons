@@ -1,10 +1,10 @@
 {
   "name": "gittoken-svg-icons",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "GitToken SVG Logo Icons",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx babel ./src/ --out-dir ./dist/ --plugins transform-react-jsx"
   },
   "keywords": [
     "GitToken",
@@ -14,5 +14,20 @@
     "Token"
   ],
   "author": "Ryan Tate <ryan.tate@gittoken.io>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-plugin-inline-import": "^2.0.6",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "loader-utils": "^1.1.0",
+    "webpack": "^3.8.1"
+  }
 }
