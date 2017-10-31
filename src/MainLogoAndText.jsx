@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import MainLogo from './MainLogo.jsx'
 
 export default class MainLogoAndText extends Component {
 	constructor(opts) {
