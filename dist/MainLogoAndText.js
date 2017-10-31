@@ -24,6 +24,42 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
+var _ref = _jsx('path', {
+	d: 'M 200 200 L 300 150 L 300 250 L 200 300 L 100 250 L 100 150 L 200 100 L 255 127 ',
+	fill: 'transparent',
+	strokeLinejoin: "round",
+	stroke: '#cc5333',
+	strokeWidth: '12'
+});
+
+var _ref2 = _jsx('circle', {
+	cx: '255',
+	cy: '127',
+	r: '14',
+	fill: '#cc5333'
+});
+
+var _ref3 = _jsx('circle', {
+	cx: '255',
+	cy: '127',
+	r: '8',
+	fill: '#2a1e38'
+});
+
+var _ref4 = _jsx('circle', {
+	cx: '200',
+	cy: '200',
+	r: '14',
+	fill: '#cc5333'
+});
+
+var _ref5 = _jsx('circle', {
+	cx: '200',
+	cy: '200',
+	r: '8',
+	fill: '#2a1e38'
+});
+
 var MainLogoAndText = function (_Component) {
 	_inherits(MainLogoAndText, _Component);
 
@@ -43,9 +79,12 @@ var MainLogoAndText = function (_Component) {
 
 			return _jsx('div', {
 				style: { textAlign: 'left', marginBottom: '-50px', marginTop: '-25px' }
-			}, void 0, _jsx('h1', {}, void 0, _jsx(_MainLogo2.default, {
+			}, void 0, _jsx('h1', {}, void 0, _jsx('svg', {
+				width: width,
+				height: height,
+				viewBox: '0 0 400 400',
 				style: { width: '5%', marginBottom: '-25px', marginRight: '-10px' }
-			}), 'GitToken'));
+			}, void 0, _ref, _ref2, _ref3, _ref4, _ref5), 'GitToken'));
 		}
 	}]);
 
