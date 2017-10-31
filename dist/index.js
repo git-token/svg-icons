@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
 	value: true
 });
-exports.NetworkLogo = exports.RegistryLogo = exports.ExchangeLogo = exports.MainLogo = undefined;
+exports.MainLogoAndText = exports.NetworkLogo = exports.RegistryLogo = exports.ExchangeLogo = exports.MainLogo = undefined;
 
 var _MainLogo = require('./MainLogo.jsx');
 
@@ -21,9 +21,14 @@ var _RegistryLogo = require('./RegistryLogo.jsx');
 
 var _RegistryLogo2 = _interopRequireDefault(_RegistryLogo);
 
+var _MainLogoAndText = require('./MainLogoAndText.jsx');
+
+var _MainLogoAndText2 = _interopRequireDefault(_MainLogoAndText);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.MainLogo = _MainLogo2.default;
 exports.ExchangeLogo = _ExchangeLogo2.default;
 exports.RegistryLogo = _RegistryLogo2.default;
 exports.NetworkLogo = _NetworkLogo2.default;
+exports.MainLogoAndText = _MainLogoAndText2.default;
