@@ -79,11 +79,16 @@ var NetworkLogo = function (_Component) {
 	_createClass(NetworkLogo, [{
 		key: "render",
 		value: function render() {
-			var width = this.props.width;
+			var _props = this.props;
+			var width = _props.width;
+			var height = _props.height;
+			var style = _props.style;
 
 			return _jsx("svg", {
 				width: width,
-				viewBox: "0 0 400 400"
+				height: height,
+				viewBox: "0 0 400 400",
+				style: style
 			}, void 0, _ref, _ref2, _ref3, _ref4, _ref5, _ref6);
 		}
 	}]);
