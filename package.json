@@ -1,6 +1,6 @@
 {
   "name": "gittoken-svg-icons",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "GitToken SVG Logo Icons",
   "main": "./src/index.js",
   "scripts": {
